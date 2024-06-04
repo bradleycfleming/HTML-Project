@@ -1,0 +1,59 @@
+<!doctype html>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Projects</h2>
+            <ol>
+                <li>
+                  <div>
+                    <a href="#">yeehaw</a>
+                    <img src="https://media.istockphoto.com/id/146714117/photo/yee-haw.jpg?s=1024x1024&w=is&k=20&c=6Vq1JRlaNWDl55tPqqpiVNUusbaYfA2VxQ4LSsDtEg0=" alt="the yee to the haw" width=300>
+                  </div>
+                </li>
+                <li><a href="#">hawyee</a>
+                  <img src="https://media.istockphoto.com/id/941563086/photo/tropical-island-sunset.jpg?s=612x612&w=0&k=20&c=6QFEWAj4jSDBGyBRU30Kw0R9x75J6sbf_ygB79CsR00=" width=300>
+                </li>
+            </ol>
+        </section>
+        <section>
+          <h2>Table</h2>
+          <table border="1">
+            <tr>
+             <th>yeehaw</th>
+             <th>hawyee</th>
+            </tr>
+            <tr>
+             <td>good vibes</td>
+             <td>sunset pic</td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h2>Contact Us</h2>
+            <form action="/submit-form" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" required>
+              
+              <label for="message">Message:</label>
+              <textArea id="message" name="message" rows="4" required></textArea>
+              
+              <input type="submit" value="Submit">
+            </form>
+            <p>Or send us an email at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
