@@ -1,0 +1,12 @@
+h1 {
+    color: plum;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+input[type="submit"]:hover {
+    background-color:plum;
+    /* border: 0;    */
+}
